@@ -1,0 +1,9 @@
+JIT and AOT Compilation
+JİT LARGER FİLE SİZE
+AOT SMALL FİLE SİZE
+JİT LOADS SLOWER SİNCE COMPİLER NEEDS TO RUN İN BROWSER
+aot loads faster since the app is compiled on delivery to the BROWSER
+jit catch errors in browser 
+aot catch errors in server
+jit compile code when needed
+aot compile code on the server
