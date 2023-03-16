@@ -2,6 +2,7 @@ import {NgModule} from "@angular/core"; //NgModule decarator is a function for a
 //By default, angular doesnt assume the environment our application is running in , we need to import a module called browser module.
 import { BrowserModule } from "@angular/platform-browser";
 import { AppComponent } from "./app.component";
+import { PostComponent } from './post/post.component';
 
 
 @NgModule({
@@ -9,7 +10,8 @@ import { AppComponent } from "./app.component";
     BrowserModule
   ],
   declarations: [
-    AppComponent//the app component is considered the root component of our app, the root component is responsible for loading other components
+    AppComponent,
+    PostComponent//the app component is considered the root component of our app, the root component is responsible for loading other components
   ],
   bootstrap: [AppComponent]
   
