@@ -4,7 +4,8 @@ import { AppModule } from "./app/app.module";
 import { environment } from "./environments/environment.development";// we can detect if we are in production or development by using environment files in our project.
 
 
-enableProdMode();
+//  enableProdMode(); // <-- here
+
 
 
 platformBrowserDynamic().bootstrapModule(AppModule)

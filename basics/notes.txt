@@ -7,3 +7,10 @@ jit catch errors in browser
 aot catch errors in server
 jit compile code when needed
 aot compile code on the server
+
+There are 2 types of directives
+Attribute Directives and Structural Directives
+Both types of directive have different syntax rules and behaviors
+AD changes the appearance or behavior of an element
+for ex. if we want to dynamically add styles to an element, this type of directive would be considered an attribute directive
+SD can add or remove elements in the document
